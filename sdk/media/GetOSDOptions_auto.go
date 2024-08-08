@@ -7,9 +7,9 @@ package media
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/sdk"
-	"github.com/use-go/onvif/media"
+	"github.com/chaymankala/onvif"
+	"github.com/chaymankala/onvif/sdk"
+	"github.com/chaymankala/onvif/media"
 )
 
 // Call_GetOSDOptions forwards the call to dev.CallMethod() then parses the payload of the reply as a GetOSDOptionsResponse.

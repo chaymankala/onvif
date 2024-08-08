@@ -7,9 +7,9 @@ package device
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/sdk"
-	"github.com/use-go/onvif/device"
+	"github.com/chaymankala/onvif"
+	"github.com/chaymankala/onvif/sdk"
+	"github.com/chaymankala/onvif/device"
 )
 
 // Call_SetNetworkInterfaces forwards the call to dev.CallMethod() then parses the payload of the reply as a SetNetworkInterfacesResponse.
