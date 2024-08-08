@@ -62,7 +62,7 @@ func NewSecurity(username, passwd string) Security {
 	charSet := gostrgen.Lower | gostrgen.Digit
 
 	nonceSeq, _ := gostrgen.RandGen(charsToGenerate, charSet, "", "")
-	created := time.Now().UTC().Format(time.RFC3339Nano)
+	created := time.Now().UTC().Format(time.RFC3339)
 	auth := Security{
 		Auth: wsAuth{
 			Username: username,
