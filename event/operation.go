@@ -66,9 +66,9 @@ type CreatePullPointSubscription struct {
 
 // CreatePullPointSubscriptionResponse action
 type CreatePullPointSubscriptionResponse struct {
-	SubscriptionReference EndpointReferenceType
-	CurrentTime           CurrentTime
-	TerminationTime       TerminationTime
+	SubscriptionReference EndpointReferenceType `xml:"Body>CreatePullPointSubscriptionResponse>SubscriptionReference"`
+	CurrentTime           CurrentTime           `xml:"Body>CreatePullPointSubscriptionResponse>CurrentTime"`
+	TerminationTime       TerminationTime       `xml:"Body>CreatePullPointSubscriptionResponse>TerminationTime"`
 }
 
 // GetEventProperties action
