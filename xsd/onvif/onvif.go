@@ -823,7 +823,7 @@ type Transport struct {
 type TransportProtocol xsd.String
 
 type MediaUri struct {
-	Uri                 xsd.AnyURI
+	Uri                 xsd.AnyURI `xml:"Uri"`
 	InvalidAfterConnect bool
 	InvalidAfterReboot  bool
 	Timeout             xsd.Duration
