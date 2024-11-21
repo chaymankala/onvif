@@ -652,7 +652,7 @@ type GetSnapshotUri struct {
 }
 
 type GetSnapshotUriResponse struct {
-	MediaUri onvif.MediaUri
+	MediaUri onvif.MediaUri `xml:"MediaUri"`
 }
 
 type GetVideoSourceModes struct {
