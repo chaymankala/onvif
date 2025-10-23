@@ -620,6 +620,7 @@ type GetStreamUri struct {
 
 type GetStreamUriResponse struct {
 	MediaUri onvif.MediaUri `xml:"trt:MediaUri"`
+	Uri      xsd.AnyURI      `xml:"Uri"`
 }
 
 type StartMulticastStreaming struct {
